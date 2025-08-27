@@ -1,0 +1,217 @@
+{
+	"Misc": {
+		"LoadMore": "Load More",
+		"Search": "Search",
+		"SearchToSell": "Search to sell",
+		"GetUpTo": "Get up to",
+		"PhoneNumber": "Phone Number",
+		"ResultMessage": ["results for", "Please try again at a later date."],
+		"Back": "Back",
+		"EmailBroadcast": "Email me with news and offers",
+		"SmsBroadcast": "Text me regarding updates on my offer, its status, or offer promotions",
+		"ProductTitleDefault": "Choose Product",
+		"BrandTitleDefault": "Choose Brand",
+		"CategoryTitleDefault": "Choose Category",
+		"Continue": "Continue",
+		"Email": "Email",
+		"MailIn": "Mail-In",
+		"InStore": "In-Store",
+		"Miles": "Miles",
+		"Km": "Km",
+		"Payout": "Payout",
+		"PayoutMethod": "Payout Method",
+		"Contact": "Contact",
+		"Offer": "Offer",
+		"Date": "Date",
+		"Location": "Location",
+		"YourAddress": "Your Address",
+		"Optional": "Optional",
+		"Subtotal": "Subtotal",
+		"CheckExpress": "Check Express",
+		"PromoCode": "Promo Code",
+		"ExpeditedPayout": "Expedited Payout",
+		"Qty": "Qty",
+		"PayoutUnavailable": "Payout is currently unavailable. Please try again later."
+	},
+	"Tooltip": {
+		"BackFormLead": "Please enter your personal info before going back!",
+		"BackPayout": "Please choose your selling method before going back!",
+		"EmailLead": "In case we need to contact you about your offer or your offer status"
+	},
+	"Device": {
+		"SellDevice": "Sell Other Products"
+	},
+	"Spec": {
+		"ConfirmCondition": "Confirm Condition",
+		"TrendOfThisDevice": "Expected price trend for this item",
+		"CurrentPrice": "Current Price",
+		"ExpectedValueNextWeek": "Expected value next week"
+	},
+	"States": {
+		"SearchState": "Search State"
+	},
+	"Cart": {
+		"Applied": "applied",
+		"Apply": "Apply",
+		"OfferSummary": "Offer Summary",
+		"TotalPayout": "Total",
+		"GetPaid": "Get Paid",
+		"Empty": "Box is Empty",
+		"ExpeditedPayout": "Expedited Payout",
+		"MaxItemMessage": ["Maximum total quantity of", "items has been reached"],
+		"MaxOneItemTooltip": "Quantity cannot be changed when order limit is 1 item total"
+	},
+	"Form": {
+		"Placeholder": {
+			"FullName": "Full Name",
+			"FirstName": "First Name",
+			"LastName": "Last Name",
+			"Username": "Username",
+			"LastDigitsPhone": "Last 4 Digits of Phone Number",
+			"Email": "Email Address",
+			"EmailPhone": "Email Address or Phone Number",
+			"CashTag": "$Cashtag, Email, or Phone Number",
+			"CompanyName": "Company Name",
+			"Address": "Street Address",
+			"PayPalEmailPhone": "Verified PayPal Email Address or Phone Number",
+			"CryptoAddress": "Crypto Address",
+			"BillBusiness": "Legal Business Name",
+			"BillNetworkId": "Network ID",
+			"OrderNumber": "Order Number",
+			"PhoneNumber": "Phone",
+			"State": "State",
+			"City": "City",
+			"PostalCode": "Postal Code",
+			"County": "County",
+			"RevolutEmailPhone": "Revtag, Email or Phone Number",
+			"ShippingLabelMax": "Additional Shipping Label"
+		},
+		"Description": {
+			"NoInformation": "No Information Required",
+			"Address": "Street address, P.O box, company name, c/o.",
+			"Suite": "Apartment, suite, unit, building, floor, etc."
+		}
+	},
+	"Validation": {
+		"CountryCode": "Country Code required, Ex: US",
+		"Email": "Value is not a valid email address",
+		"EmailPhone": "Not valid email or phone number",
+		"EmailPhoneUsername": "Not valid email, phone number or username",
+		"Phone": "Phone number is not valid",
+		"Username": "Not valid Username",
+		"MaxLength": "Must be less than",
+		"MinLength": "Must be more than",
+		"MaxLengthCharracters": "Must be less than {{max}} character",
+		"MinLengthCharracters": "Must be more than {{min}} character",
+		"Numeric": "This field contain only numbers",
+		"Required": "The field is required",
+		"CashTag": "Not valid $cashtag, email, or phone number",
+		"Promo": "Oops... promo code not found!",
+		"RevtagEmailPhone": "Not valid Revtag, email or phone number",
+		"TextOnly": "This field contain only letters",
+		"NumberOnly": "This field contain only numbers",
+		"Alphanumeric": "This field contain letters and numbers"
+	},
+	"NotFound": {
+		"Message": [
+			"Unfortunately, we are unable to find an offer for this item. This could mean we are currently in the process of updating our prices or this could be an error. Please",
+			"Contact Us",
+			"for more information."
+		]
+	},
+	"SectionCard": {
+		"RestrictionInStore": "This item cannot be sold in-store",
+		"RestrictionMailIn": "This item cannot be sold mail-in"
+	},
+	"FormCheckoutShipping": {
+		"UseSameAddress": "Use same address as",
+		"Name": "Name",
+		"Address": "Street Address",
+		"City": "City",
+		"State": "State",
+		"PostalCode": "Postal Code",
+		"Phone": "Phone",
+		"AdditionalShipping": "Request additional shipping label",
+		"AdditionalShippingDesc": "You'll receive only {{min}} shipping label if you didn't check this checkbox, you can request it up to {{max}} shipping label"
+	},
+	"FormPayoutChooseLater": {
+		"Description": [
+			"With the 'Choose Later' option, you have the flexibility to add your payout details privately. Select from our extensive payout methods. After your offer is inspected, we'll send a link to your email, allowing you to choose your preferred payout option at your convenience.",
+			"Here are the methods available to you based on your offer that you can choose from later:"
+		],
+		"SearchPlaceholder": "Search Available Payout Method"
+	},
+	"FormPayoutPaperCheck": {
+		"UseCompanyName": "Use the company name in the Check"
+	},
+	"FormCheckoutAccount": {
+		"SmsBroadcastDescription": "By signing up via text , you consent to receive automated text messages about your offer (e.g. status updates and cart reminders) from {:company-name} at the number provided. Consent is not mandatory. Message & data rates may apply. Unsubscribe at any time by replying STOP."
+	},
+	"GetPaid": {
+		"Lead": {
+			"Title": "Please enter your personal Info",
+			"Submit": "Get Offer Now"
+		},
+		"OrderDetail": {
+			"SubTitle": "Please find your offer details below",
+			"GetDirections": "Get Directions",
+			"TrackingNumber": "Tracking Number",
+			"TrackingNumberUnavailable": "Failed to generate shipping label; no tracking information available.",
+			"Imei": "IMEI/SN",
+			"ImeiInstruction": "Dial *#06# to find your device's IMEI number",
+			"ImeiDescription": "Looking to <b>speed up your payment?</b> Add your IMEI/SN below, and we'll process your offer quicker!",
+			"ShippingLabel": "Shipping Label",
+			"GenerateFailed": "Unable to generate a shipping label. Please contact support for more details",
+			"WhatImSelling": "What I'm Selling",
+			"ShippingInsurance": "Shipping Insurance",
+			"ShippingCost": "Shipping Cost",
+			"GrandTotal": "Grand Total",
+			"NotQuoteYet": "Not yet quoted",
+			"SellingDetails": "Selling Details",
+			"Specification": "Specification",
+			"AvailableTrackingNumber": "Available Tracking Number"
+		},
+		"Option": {
+			"Title": "Sell online or in-store?",
+			"TitleInStore": "Sell in-store?",
+			"TitleMailIn": "Sell online?",
+			"DescriptionMailIn": "Ship your item using our pre-paid shipping label",
+			"DescriptionInStore": "Find nearest location to sell in-store"
+		},
+		"Location": {
+			"Title": "Find a store near you",
+			"CurrentLocation": "Use Current Location",
+			"NearLocation": "Locations near",
+			"SellAtLocation": "Sell at this location",
+			"SearchPlaceholder": "Search by Zip, City, or Address",
+			"FindStore": "FIND A STORE",
+			"ResultMessage": ["Showing", "results", "result"],
+			"ErrorMessage": "There was an error getting your location",
+			"ViewOnMap": "View on map",
+			"LoadMore": "LOAD MORE LOCATIONS"
+		},
+		"Cart": {
+			"AddAnotherDevice": "Add another item"
+		},
+		"Checkout": {
+			"Bonus": "Bonus Payout",
+			"Error": "Choose payout method",
+			"TooltipAddress": "We need your address to generate a shipping label",
+			"TermsCondition": [
+				"By clicking Lock in Offer you agree to",
+				"Terms and Conditions",
+				"and confirm that the item you are selling has not been reported lost or stolen."
+			],
+			"LockInOffer": "Lock in Offer",
+			"ExpeditedLabel": "Expedited Payout",
+			"TooltipExpeditedDisabled": "The total payout is lower than the Expedited Payout Service Fee"
+		}
+	},
+	"Location": {
+		"Change": "Change Location",
+		"Store": "Store Location"
+	},
+	"Input": {
+		"MaxNumberMessage": ["The quantity exceeds the maximum limit of", "quantity will be reset to"]
+	}
+}

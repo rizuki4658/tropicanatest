@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PaperCheck Test</title>
+    <style>
+        .test-form {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-form">
+        <h2>Widget Test</h2>
+        <form id="widgetForm">
+            <div class="form-group">
+                <label for="tenantId">Tenant ID:</label>
+                <input type="text" id="tenantId" name="tenantId" required>
+            </div>
+            <div class="form-group">
+                <label for="apiKey">API Key:</label>
+                <input type="text" id="apiKey" name="apiKey" required>
+            </div>
+            <button type="submit">Load Widget</button>
+        </form>
+    </div>
+
+    <div class="buyback-widget"></div>
+
+    <script src="/v3.js"></script>
+    <script>
+        document.getElementById('widgetForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const tenantId = document.getElementById('tenantId').value;
+            const apiKey = document.getElementById('apiKey').value;
+            
+            // Clear previous widget
+            const container = document.querySelector('.buyback-widget');
+            container.innerHTML = '';
+            
+            // Create new widget instance
+            new Buyback({
+                tenantId: tenantId,
+                apiKey: apiKey
+            });
+        });
+    </script>
+</body>
+</html>
