@@ -4,6 +4,7 @@
 		"Search": "Search",
 		"SearchToSell": "Search to sell",
 		"GetUpTo": "Get up to",
+		"RecycleForFree": "Recycle for free",
 		"PhoneNumber": "Phone Number",
 		"ResultMessage": ["results for", "Please try again at a later date."],
 		"Back": "Back",
@@ -50,6 +51,10 @@
 	"States": {
 		"SearchState": "Search State"
 	},
+	"SelectCountry": {
+		"Empty": "No countries available.",
+		"EmptySearch": "No countries match '{{keyword}}'."
+	},
 	"Cart": {
 		"Applied": "applied",
 		"Apply": "Apply",
@@ -83,8 +88,10 @@
 			"City": "City",
 			"PostalCode": "Postal Code",
 			"County": "County",
+			"Revolut": "Revtag",
 			"RevolutEmailPhone": "Revtag, Email or Phone Number",
-			"ShippingLabelMax": "Additional Shipping Label"
+			"ShippingLabelMax": "Additional Shipping Label",
+			"Country": "Country"
 		},
 		"Description": {
 			"NoInformation": "No Information Required",
@@ -107,10 +114,22 @@
 		"Required": "The field is required",
 		"CashTag": "Not valid $cashtag, email, or phone number",
 		"Promo": "Oops... promo code not found!",
+		"Revtag": "Not valid Revtag",
 		"RevtagEmailPhone": "Not valid Revtag, email or phone number",
 		"TextOnly": "This field contain only letters",
 		"NumberOnly": "This field contain only numbers",
-		"Alphanumeric": "This field contain letters and numbers"
+		"Alphanumeric": "This field contain letters and numbers",
+		"AllowedMixedNumberText": "This field accepts numbers or mix of letters and numbers (no special characters)"
+	},
+	"OneTimePassword": {
+		"Title": "Access Code Required",
+		"Placeholder": "Enter access code",
+		"ButtonText": "Verify",
+		"InvalidCode": "Invalid or expired access code",
+		"CodeRequired": "Access code is required",
+		"UnableToVerify": "Unable to verify access code",
+		"CodeAccepted": "Access code verified successfully",
+		"AlreadyUsed": "This code has already been used"
 	},
 	"NotFound": {
 		"Message": [
@@ -213,5 +232,16 @@
 	},
 	"Input": {
 		"MaxNumberMessage": ["The quantity exceeds the maximum limit of", "quantity will be reset to"]
+	},
+	"ImageUpload": {
+		"TitlePage": "Almost done-one last thing before we lock in your offer!",
+		"DropzoneText": "Click to browse or drop photos here",
+		"DropzoneSubtext": "PNG, JPG, HEIC up to 10MB each",
+		"BrowseFiles": "Browse Files",
+		"Title": "Upload Images",
+		"Description": "Upload images of your device",
+		"MaxFilesReached": "Maximum number of files reached ({{max}} files)",
+		"UploadFailed": "Upload failed. Please try again.",
+		"TakePhoto": "Take Photo"
 	}
 }
